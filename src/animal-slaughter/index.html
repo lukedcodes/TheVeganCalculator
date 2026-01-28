@@ -1,0 +1,293 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>Animal Slaughter Kill Counter - The Vegan Web Designer</title>
+
+    <meta name="description"
+        content="This Website shows the numbers of animals killed worldwide by the meat, egg, and dairy industries. See in real time how many animals are slaughtered" />
+    <meta name="keywords" content="Animals, Slaughtered, Every, Year, Kill, Counter" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Social Meta -->
+    <meta property="og:title" content="Animals Slaughter Kill Counter- The Vegan Web Designer" />
+    <meta property="og:site_name" content="Animals Slaughter Kill Counter" />
+    <meta property="og:url" content="http://www.thevegancalculator.com/animal-slaughter" />
+    <meta property="og:description"
+        content="This website shows the numbers of animals killed worldwide by the meat, egg, and dairy industries. See in real time how many animals are slaughtered" />
+    <meta property="og:image" content="../img/kill-counter-screenshot.png" />
+
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
+    <link href="../css/app.css" rel="stylesheet" />
+    <script src="../js/jquery.js"></script>
+    <script src="../js/autoscroll.js"></script>
+    <script src="../js/animal-slaughter.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-68570137-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script>
+        /**
+        * Function that tracks a click on an outbound link in Google Analytics.
+        * This function takes a valid URL string as an argument, and uses that URL string
+        * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+        * using 'navigator.sendBeacon' in browser that support it.
+        */
+        var trackOutboundLink = function (url) {
+            ga('send', 'event', 'outbound', 'click', url, {
+                'transport': 'beacon',
+                'hitCallback': function () { document.location = url; }
+            });
+        }
+    </script>
+
+</head>
+
+<body class="animal-slaughter">
+    <div class="hero">
+        <video autoplay loop class="video-background" poster="../img/video-background.jpg" muted>
+            <source src="../img/animals-slaughtered-VBR2pass-0.8-2.webm" type="video/webm"
+                alt="animal slaughter counter">
+            <source src="../img/animals-slaughtered-VBR2pass-0.8-2.mp4" type="video/mp4" alt="animal slaughter counter">
+        </video>
+        <a class="calc-link" href="http://thevegancalculator.com">
+            <i class="fa fa-chevron-left"></i> The Vegan Calculator
+        </a>
+        <div class="logo">
+            <a href="http://thevegancalculator.com">
+                <img src="../img/tvwd-icon.png" alt="animal slaughter counter" title="The Vegan Web Designer">
+            </a>
+        </div>
+        <div class="video-overlay"></div>
+        <h1>Animal Slaughter Counter</h1>
+        <h2>More Than 150 Billion Animals are Slaughtered Every Year</h2>
+    </div>
+
+    <div class="content-section counter-body">
+        <h3>Animals Slaughtered for food Every Second</h3>
+        <p>These are the numbers of animals slaughtered worldwide by the meat, egg, and dairy industries since you
+            opened this webpage. </p>
+        <p id="passed" class="time-so-far">It has been 0 seconds</p>
+        <ul class="slaughter-counter">
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-wild_caught_fish">0</span>
+                        <p>Wild Caught Fish</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-chickens">0</span>
+                        <p>Chickens</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-farmed_fish">0</span>
+                        <p>Farmed Fish</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-ducks">0</span>
+                        <p>Ducks</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-pigs">0</span>
+                        <p>Pigs</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-rabbits">0</span>
+                        <p>Rabbits</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-geese">0</span>
+                        <p>Geese</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-turkeys">0</span>
+                        <p>Turkeys</p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-sheep">0</span>
+                        <p>Sheep</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-goats">0</span>
+                        <p>Goats</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-cattle">0</span>
+                        <p>Cattle</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-rodents">0</span>
+                        <p>Rodents</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-other_birds">0</span>
+                        <p>Pigeons &amp; Birds</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-buffalo">0</span>
+                        <p>Buffaloes</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-horses">0</span>
+                        <p>Horses</p>
+                    </div>
+                </div>
+            </li>
+            <!-- <li>
+		    	<div class="counter-inner-wrapper">
+					<div class="counter-image"></div>
+					<div class="counter-box">
+			          <span id="count13">0</span>
+			          <p>Dogs</p>
+			    	</div>
+		    	</div>
+		    </li> -->
+            <!-- <li>
+		    	<div class="counter-inner-wrapper">
+					<div class="counter-image"></div>
+					<div class="counter-box">
+			          <span id="count14">0</span>
+			          <p>Cats</p>
+			    	</div>
+		    	</div>
+		    </li> -->
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-donkeys">0</span>
+                        <p>Donkeys</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="counter-inner-wrapper">
+                    <div class="counter-image"></div>
+                    <div class="counter-box">
+                        <span id="akc-camels">0</span>
+                        <p>Camelids</p>
+                    </div>
+                </div>
+            </li>
+            <li class="counter-share-loader">
+                <div class="counter-inner-wrapper">
+                    <div class="share show-loader">
+                        <!-- <p>Share:</p> -->
+                        <div class="group facebook-share">
+                            <button class="fb">
+                                <i class="fa fa-facebook"></i>
+                            </button>
+                        </div>
+                        <div class="group twitter-share">
+                            <button class="twitter">
+                                <i class="fa fa-twitter"></i>
+                            </button>
+                        </div>
+                        <div class="share-loader">
+                            <img src="http://thevegancalculator.com/img/loader.gif" alt="vegan calculator loader">
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="row">
+            <div class="columns small-12">
+                <p class="counter-info">Thanks to <a target="_blank" href="http://considerveganism.com/counter/"
+                        onclick="trackOutboundLink('http://considerveganism.com/counter/'); return false;">Consider
+                        Veganism</a> for counter statistics</p>
+            </div>
+        </div>
+    </div>
+
+    @@include('../partials/recommended.html')
+
+    @@include('../partials/footer.html')
+
+    @@include('../partials/scripts2.html')
+
+</body>
+
+</html>
