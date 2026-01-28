@@ -1,0 +1,46 @@
+
+<footer class="footer">
+	<ul>
+		<li class="footer-header">Links</li>
+		<li>
+			<a target="_blank" 
+			href="http://thevegancalculator.com/"
+			onclick="https://twitter.com/vegancalculator'; return false;"
+			>The Vegan Calculator</a></li>
+		<li>
+			<a target="_blank" 
+			href="https://thevegancalculator.com/animal-slaughter/"
+			onclick="http://thevegancalculator.com/animal-slaughter/; return false;"
+			>Animal Slaughter Counter</a></li>
+		<li>
+			<a target="_blank" 
+			href="https://www.redbubble.com/people/VeganDesigner/shop"
+			onclick="trackOutboundLink('https://www.redbubble.com/people/VeganDesigner/shop'); return false;"
+			>Vegan Shirts</a>
+		</li>
+	</ul>
+	<ul>
+		<li class="footer-header">Social</li>
+		<li>
+			<a target="_blank" 
+			href="https://www.facebook.com/TheVeganCalculator/"
+			onclick="trackOutboundLink('https://www.facebook.com/TheVeganCalculator/'); return false;"
+			>Facebook</a>
+		</li>
+        	<li>
+			<a target="_blank" 
+			href="https://twitter.com/vegancalculator"
+			onclick="https://twitter.com/vegancalculator'); return false;"
+			>Twitter</a>
+		</li>
+		<li>
+			<a target="_blank" 
+			href="http://theveganwebdesigner.com/#contact"
+			onclick="trackOutboundLink('http://theveganwebdesigner.com/#contact'); return false;"
+			>Contact</a>
+		</li>
+	</ul>
+	<div class="footer-end">
+        <p>Made with <span class="heart">&hearts;</span> - <a target="_blank" href="http://theveganwebdesigner.com/" onclick="trackOutboundLink('http://theveganwebdesigner.com/'); return false;">by Luke, The Vegan Web Designer</a></p>
+	</div>
+</footer>

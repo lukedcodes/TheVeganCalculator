@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+$green: #2cc03d;
+$green2: #43e137;
+$pink: #f92f4c;
+$red: #e11;
+$grey: #999;
+$mainFont: oxygen,sans-serif;
+
+body {
+    background-color: #eee;
+    background: #eee;
+    font-family: $mainFont;
+}
+
+.row{
+    max-width: 70rem;
+}
+
+div {
+    height: auto;
+    overflow: visible;
+}
+
+.clearfix {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    font-family: $mainFont;
+}
+
+a {
+    color: $green;
+    transition: 0.5s;
+    font-weight: bold;
+    &:hover {
+        text-decoration: underline;
+        color: $green2;
+        transition: 0.5s;
+    }
+}
+
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    text-shadow: 1px 1px 1px #222, 1px 1px 4px #333;
+    @media (max-width: 64rem) {
+        font-size: 2.2rem;
+    }
+    @media (max-width: 40rem) {
+        font-size: 2rem;
+    }
+    @media (max-width: 30rem) {
+        font-size: 1.5rem;
+    }
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px #222, 1px 1px 4px #333;
+    @media (max-width: 480px) {
+        font-size: 1rem;
+    }
+}
+
+h3 {
+    color: $grey;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    @media (max-width: 40rem) {
+        font-size: 0.9rem;
+    }
+}
+
+h4 {
+    color: $grey;
+    font-size: 1.2rem;
+    @media (max-width: 40rem) {
+        font-size: 0.9rem;
+    }
+}
+
+.card{
+    //@extend .box-shadow;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 4px;
+    overflow: hidden;
+    @media (max-width: 40rem){
+        margin: 0.2rem 0;
+    }
+}
+
+/* Social Share */
+.share {
+    color: #fff;
+    padding-left: 1rem;
+    position: relative;
+    @media (max-width: 40rem) {
+        padding-left: 0;
+    }
+    p {
+        color: #444;
+        margin: 0;
+        font-size: 0.8rem;
+    }
+    .group {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        text-align: center;
+        margin: 0 auto;
+    }
+    button {
+        padding: 0.5rem;
+        width: 2.5rem;
+        font-size: 1rem;
+        border-radius: 0;
+        cursor: inherit;
+        border: 0;
+        color: #fff;
+        outline: 0;
+        font-family: inherit;
+        -webkit-transition: background-color 0.2s ease-in-out;
+        -moz-transition: background-color 0.2s ease-in-out;
+        -o-transition: background-color 0.2s ease-in-out;
+        transition: background-color 0.2s ease-in-out;
+        &:hover{
+            text-decoration: none;
+        }
+        @media (max-width: 365px) {
+            width: 2rem;
+            font-size: 0.6rem;
+        }
+    }
+    .fb {
+        background-color: #306199;
+        &:hover {
+            background-color: #244872;
+        }
+    }
+    .gp {
+        background-color: #e93f2e;
+        &:hover {
+            background-color: #ce2616;
+        }
+    }
+    .twitter {
+        background-color: #26c4f1;
+        &:hover {
+            background-color: #0eaad6;
+        }
+    }
+}
+
+.share-loader {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0;
+    background-color: rgba(250, 250, 250, 0.9);
+    img {
+        margin: 1.5rem auto;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+}
+
+.show-loader {
+    .share-loader {
+        display: block;
+    }
+}
+/* Share Ends */
+
+
+
+// Footer
+.footer {
+    margin: 5rem auto 0;
+    padding: 3rem 1rem 0rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    height: auto;
+    text-align: center;
+    p {
+        color: $grey;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    a {
+        color: $green;
+    }
+    .heart {
+        color: $pink;
+    }
+    ul {
+        width: 250px;
+        max-width: 100%;
+        margin: 0 1rem;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 1rem;
+        text-align: center;
+        list-style-type: none;
+    }
+    li {
+        display: block;
+        box-sizing: border-box;
+        margin: 0 auto;
+        list-style: none;
+        color: $grey;
+        text-align: center;
+        font-size: 0.8rem;
+        a {
+            color: $green;
+            padding: 0.2rem;
+            display: block;
+            text-decoration: none;
+        }
+    } //li
+    .footer-header {
+        font-weight: bold;
+        padding-bottom: 0.5rem;
+        text-transform: uppercase;
+    }
+    .footer-end {
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        display: block;
+        width: 100%;
+    }
+} //footer

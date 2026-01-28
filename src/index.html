@@ -1,0 +1,188 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>Vegan Calculator - The Vegan Web Designer</title>
+
+    <meta name="description"
+        content="Vegan Calculator - How much have you saved? & A Vegan lifestyle saves animals, the environment and much more. Calculate how much you've saved." />
+    <meta name="keywords" content="Vegan, Calculator, save, animals, planet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Social Meta -->
+    <meta property="og:title" content="Vegan Calculator - The Vegan Web Designer" />
+    <meta property="og:site_name" content="Vegan Calculator" />
+    <meta property="og:url" content="https://www.thevegancalculator.com" />
+    <meta property="og:description"
+        content="Vegan Calculator - How much have you saved? & A Vegan lifestyle saves animals, the environment and much more. See how much you've saved." />
+    <meta property="og:image" content="img/vegan-calculator-screenshot.png" />
+
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link href="css/app.css" rel="stylesheet" />
+    <script src="js/jquery.js"></script>
+    <script src="js/autoscroll.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-68570137-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script>
+        /**
+        * Function that tracks a click on an outbound link in Google Analytics.
+        * This function takes a valid URL string as an argument, and uses that URL string
+        * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+        * using 'navigator.sendBeacon' in browser that support it.
+        */
+        var trackOutboundLink = function (url) {
+            ga('send', 'event', 'outbound', 'click', url, {
+                'transport': 'beacon',
+                'hitCallback': function () { document.location = url; }
+            });
+        }
+    </script>
+
+</head>
+
+<body class="vegan-calculator">
+
+
+    <div class="header">
+        <div class="nav">
+            <div class="nav-inner box-shadow" data-equalizer>
+                <div class="small-12 medium-10 columns" data-equalizer-watch>
+                    <h1 class="title">The Vegan <strong>Calculator</strong></h1>
+                </div>
+                <div class="small-12 medium-2 columns logo-wrap" data-equalizer-watch>
+                    <a target="_blank" href="https://theveganwebdesigner.com"
+                        onclick="trackOutboundLink('https://theveganwebdesigner.com'); return false;">
+                        <img src="img/tvwd-medium.png" alt="the Vegan Calculator" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 columns header-text">
+                <h1>How much have you saved?</h1>
+                <h2>A Vegan lifestyle saves animals, the environment &amp; much more<br>
+                    Calculate how much you've saved.
+                </h2>
+            </div>
+        </div>
+        <!-- <div class="video-overlay"></div>
+		<video autoplay loop class="video-background" poster="img/vegan-calculator-header-01-web.jpg" muted>
+			<source src="img/animals-slaughtered-VBR2pass-0.8-2.webm" type="video/webm" alt="animal slaughter counter">
+			<source src="img/animals-slaughtered-VBR2pass-0.8-2.mp4" type="video/mp4" alt="animal slaughter counter">
+		</video> -->
+    </div>
+
+    <div class="content-section calculator">
+        <div class="row">
+            <div class="calc-header hide-on-mobile">
+                <h3 class="index intro">Every day as a Vegan you save:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 medium-6 columns">
+                <div class="calc">
+                    <h4>How long have you been Vegan?</h4>
+                    <!-- Calculator -->
+                    <div class="calc-form">
+                        <div class="calc-input">
+                            <label for="years">Years:</label>
+                            <input type="number" id="years" min=0 max="99" placeholder="0">
+                        </div>
+                        <div class="calc-input">
+                            <label for="months">Months:</label>
+                            <input type="number" id="months" min=0 max="12" placeholder="0">
+                        </div>
+                        <div class="calc-input">
+                            <label for="unit" class="hidelabel">Unit</label>
+                            <select id="unit" name='unit'>
+                                <option value='imperial'>Imperial</option>
+                                <option value='metric'>Metric</option>
+                            </select>
+                        </div>
+                        <div class="calc-input calc-btnwrap">
+                            <a href="#calculator" class="button postfix calculator-btn"
+                                onclick="veganCalc()">Calculate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Numbers -->
+            <div class="small-12 medium-6 columns">
+                <div class="calc-header hide-on-desktop">
+                    <h3 class="index intro">Every day as a Vegan you save:</h3>
+                </div>
+                <div class="small-6 columns">
+                    <div class="stat">
+                        <div class="name box-shadow index water">Gallons of Water:</div>
+                        <div class="number value water">1100</div>
+                    </div>
+                    <div class="stat">
+                        <div class="name box-shadow index forest">Sq Ft Forest:</div>
+                        <div class="number value forest">30</div>
+                    </div>
+                    <div class="stat">
+                        <div class="name box-shadow index animals">Animal lives:</div>
+                        <div class="number value animals">1</div>
+                    </div>
+                    <!-- <div class="stat">
+						<div class="share show-loader">
+							<p>Share:</p>
+							<div class="group facebook-share">
+								<button class="fb">
+									<i class="fa fa-facebook"></i>
+								</button>
+							</div>
+							<div class="group twitter-share">
+								<button class="twitter">
+									<i class="fa fa-twitter"></i>
+								</button>
+							</div>
+							<div class="share-loader">
+								<img src="img/loader.gif" alt="vegan calculator loader">
+							</div>
+						</div>
+					</div> -->
+                </div>
+                <div class="small-6 columns">
+                    <div class="stat">
+                        <div class="name box-shadow index grain">lbs of Grain:</div>
+                        <div class="number value grain">40</div>
+                    </div>
+                    <div class="stat">
+                        <div class="name box-shadow index co2">lbs of Co2:</div>
+                        <div class="number value co2">20</div>
+                    </div>
+                    <div class="stat">
+                        <p class="source">
+                            Statistic Source:
+                            <a target="_blank" href="https://cowspiracy.com/facts"
+                                onclick="trackOutboundLink('https://cowspiracy.com/facts'); return false;">www.cowspiracy.com/facts</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @@include('./partials/recommended.html')
+
+    @@include('./partials/footer.html')
+
+    @@include('./partials/scripts.html')
+
+</body>
+
+</html>

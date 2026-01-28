@@ -1,0 +1,373 @@
+<div class="content-section documentaries">
+	<h3>Recommended Documentaries:</h3>
+	<div class="row" data-equalizer>
+
+		<div class="small-6 medium-3 columns">
+			<!-- dominion -->
+			<div class="card dominion" data-equalizer-watch>
+				<a target="_blank" href="https://www.dominionmovement.com/watch" onclick="trackOutboundLink('https://www.dominionmovement.com/watch'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="https://www.dominionmovement.com/watch" onclick="trackOutboundLink('https://www.dominionmovement.com/watch'); return false;">Dominion</a>
+					</strong>
+				</p>
+				<p class="blurb">
+					Exposing the dark underbelly of modern animal agriculture through drones, hidden &amp; handheld cameras, the feature-length film explores the morality and validity of our dominion over the animal kingdom.
+				</p>
+			</div>
+		</div>
+
+
+		<div class="small-6 medium-3 columns">
+			<!-- Card Earthlings-->
+			<div class="card earthlings" data-equalizer-watch>
+				<a target="_blank" href="https://www.nationearth.com/earthlings-1/" onclick="trackOutboundLink('https://www.nationearth.com/earthlings-1/'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="https://www.nationearth.com/earthlings-1/" onclick="trackOutboundLink('https://www.nationearth.com/earthlings-1/'); return false;">Earthlings</a>
+					</strong>
+				</p>
+				<p class="blurb">
+					Using hidden cameras and never-before-seen footage, EARTHLINGS chronicles the day-to-day practices of the largest industries
+					in the world, all of which rely entirely on animals for profit. Narrated by Joaquin Phoenix.
+				</p>
+			</div>
+		</div>
+
+		<div class="small-6 medium-3 columns">
+			<!-- Card Cowspiracy-->
+			<div class="card cowspiracy" data-equalizer-watch>
+				<a target="_blank" href="https://www.cowspiracy.com/" onclick="trackOutboundLink('https://www.cowspiracy.com/'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="https://www.cowspiracy.com/" onclick="trackOutboundLink('https://www.cowspiracy.com/'); return false;">Cowspiracy</a>
+					</strong>
+				</p>
+				<p class="blurb">
+					A groundbreaking feature-length environmental documentary following intrepid filmmaker Kip Andersen as he uncovers the most destructive industry facing the planet today – and investigates why the world’s leading environmental organizations are too afraid to talk about it.
+				</p>
+			</div>
+		</div>
+
+		<div class="small-6 medium-3 columns">
+			<!-- Card Forks over knives-->
+			<div class="card forksoverknives" data-equalizer-watch>
+				<a target="_blank" href="https://www.forksoverknives.com/" onclick="trackOutboundLink('https://www.forksoverknives.com/'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="https://www.forksoverknives.com/" onclick="trackOutboundLink('https://www.forksoverknives.com/'); return false;">Forks Over Knives</a>
+					</strong>
+				</p>
+				<p class="blurb">
+					Researchers explore the possibility that people changing their diets from animal-based to plant-based can help eliminate
+					or control diseases like cancer and diabetes.
+				</p>
+			</div>
+		</div>
+
+		<div class="small-6 medium-3 columns">
+			<!-- Card The Game Changers -->
+			<div class="card gamechangers" data-equalizer-watch>
+				<a target="_blank" href="https://gamechangersmovie.com/" onclick="trackOutboundLink('https://gamechangersmovie.com/'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="https://gamechangersmovie.com/" onclick="trackOutboundLink('https://gamechangersmovie.com/'); return false;">The Game Changers</a>
+					</strong>
+				</p>
+				<p class="blurb">
+					Presented by James Cameron, Arnold Schwarzenegger, Jackie Chan, Lewis Hamilton, Novak Djokovic and Chris Paul — a revolutionary new film about plant-based athletes, meat, protein and strength.
+				</p>
+			</div>
+		</div>
+
+		<div class="small-6 medium-3 columns">
+			<!-- Card What the Health-->
+			<div class="card whatthehealth" data-equalizer-watch>
+				<a target="_blank" href="https://www.whatthehealthfilm.com/" onclick="trackOutboundLink('https://www.whatthehealthfilm.com/'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="https://www.whatthehealthfilm.com/" onclick="trackOutboundLink('https://www.whatthehealthfilm.com/'); return false;">What The Health</a>
+					</strong>
+				</p>
+				<p class="blurb">
+					Filmmaker Kip Andersen uncovers the secret to preventing and even reversing chronic diseases, and he investigates why the
+					nation's leading health organizations doesn't want people to know about it.
+				</p>
+			</div>
+		</div>
+
+		<div class="small-6 medium-3 columns">
+			<!-- Card Food Choices-->
+			<div class="card foodchoices" data-equalizer-watch>
+				<a target="_blank" href="https://watchdocumentaries.com/food-choices/" onclick="trackOutboundLink('https://watchdocumentaries.com/food-choices/'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="https://watchdocumentaries.com/food-choices/" onclick="trackOutboundLink('https://watchdocumentaries.com/food-choices/'); return false;">Food Choices</a>
+					</strong>
+				</p>
+				<p class="blurb">
+				Award-winning filmmaker Michal Siewierski on his three-year journey to expose the truth about our food choices. This ground-breaking documentary explores the impact that food choices have on people’s health, the health of our planet and on the lives of other living species.
+				</p>
+			</div>
+		</div>
+
+		<div class="small-6 medium-3 columns">
+			<!-- Card Eating You Alive-->
+			<div class="card eatingyoualive" data-equalizer-watch>
+				<a target="_blank" href="https://www.eatingyoualive.com/" onclick="trackOutboundLink('https://www.eatingyoualive.com/'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="https://www.eatingyoualive.com/" onclick="trackOutboundLink('https://www.eatingyoualive.com/'); return false;">Eating You Alive</a>
+					</strong>
+				</p>
+				<p class="blurb">
+					A scientific look at the reasons we’re so sick, who’s responsible for feeding us the wrong information and how we can use whole-food, plant-based nutrition to take control of our health.
+				</p>
+			</div>
+		</div>
+
+		<div class="small-6 medium-3 columns">
+			<!-- Card Blackfish -->
+			<div class="card blackfish" data-equalizer-watch>
+				<a target="_blank" href="http://www.blackfishmovie.com/" onclick="trackOutboundLink('http://www.blackfishmovie.com/'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="http://www.blackfishmovie.com/" onclick="trackOutboundLink('http://www.blackfishmovie.com/'); return false;">Blackfish</a>
+					</strong>
+				</p>
+				<p class="blurb">
+					The story of Tilikum, a captive killer whale that has taken the lives of several people, underscores problems within the sea-park industry, man's relationship to nature, and how little has been learned about these highly intelligent mammals.
+				</p>
+			</div>
+		</div> 
+		
+		<div class="small-6 medium-3 columns">
+			<!-- Card The Cove -->
+			<div class="card thecove" data-equalizer-watch>
+				<a target="_blank" href="https://www.opsociety.org/our-work/films/the-cove//" onclick="trackOutboundLink('https://www.opsociety.org/our-work/films/the-cove/'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="https://www.opsociety.org/our-work/films/the-cove/" onclick="trackOutboundLink('https://www.opsociety.org/our-work/films/the-cove/'); return false;">The Cove</a>
+					</strong>
+				</p>
+				<p class="blurb">
+					In Taiji, Japan, local fishermen hide a gruesome secret: the capture and slaughter of dolphins. Activist Ric O'Barry, who trained dolphins for the "Flipper" TV series, joins forces with filmmaker Louis Psihoyos and the Ocean Preservation Society to expose the brutal practice, risking life and limb in the process.
+				</p>
+			</div>
+		</div> 
+
+		<div class="small-6 medium-3 columns">
+			<!-- Card racingextinction -->
+			<div class="card racingextinction" data-equalizer-watch>
+				<a target="_blank" href="https://racingextinction.com/" onclick="trackOutboundLink('https://racingextinction.com/'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="https://racingextinction.com/" onclick="trackOutboundLink('https://racingextinction.com/'); return false;">Racing Extinction</a>
+					</strong>
+				</p>
+				<p class="blurb">
+					Filmmaker Louie Psihoyos, along with activists, scientists and others, draws attention to mankind's role in a potential loss of at least half of the world's species.
+				</p>
+			</div>
+		</div> 
+
+		<div class="small-6 medium-3 columns">
+			<!-- Card Ghost in our Machine -->
+			<div class="card ghostmachine" data-equalizer-watch>
+				<a target="_blank" href="https://www.seaspiracy.org/" onclick="trackOutboundLink('https://www.seaspiracy.org/'); return false;">
+					<div class="image"></div>
+				</a>
+				<p>
+					<strong>
+						<a target="_blank" href="https://www.seaspiracy.org/" onclick="trackOutboundLink('https://www.seaspiracy.org/'); return false;">Seaspiracy</a>
+					</strong>
+				</p>
+				<p class="blurb">
+					Seaspiracy is a 2021 documentary film about the environmental impact of fishing directed by and starring Ali Tabrizi, a British filmmaker. The film examines various human impacts on marine life and advocates for ending fish consumption.
+				</p>
+			</div>
+		</div> 
+
+	</div>
+	<!-- row -->
+</div>
+
+<!-- BRAND --><!-- BRAND --><!-- BRAND --><!-- BRAND -->
+<div class="brand">
+	<div class="row">
+		<a href="https://assistingvegans.com/" onclick="trackOutboundLink('https://assistingvegans.com/'); return false;">
+			<img src="https://www.thevegancalculator.com/img/vegan-calc-assistingvegans-banner-3.jpg" alt="Assisting Vegans - Virtual Assistant">
+		</a>
+	</div>
+</div>
+
+<!-- LINKS --><!-- LINKS --><!-- LINKS --><!-- LINKS -->
+<div class="content-section links">
+	<div class="row">
+		<h3>Useful Links:</h3>
+		<!-- Link -->
+		<div class="small-6 medium-2 columns end">
+			<a target="_blank" href="https://www.vegan.com/" onclick="trackOutboundLink('https://www.vegan.com/'); return false;">
+				<div class="card link">
+					<img src="https://www.thevegancalculator.com/img/vegancom-logo.jpg" alt="Vegan" />
+					<p>
+						Vegan.com
+						<br>
+						<small>"Making Vegan easy"</small>
+					</p>
+					<i class="fa fa-angle-right arrow"></i>
+				</div>
+			</a>
+		</div>
+
+		<!-- Link -->
+		<div class="small-6 medium-2 columns">
+			<a target="_blank" href="https://challenge22.com/" onclick="trackOutboundLink('https://challenge22.com/'); return false;">
+				<div class="card link">
+					<img src="https://www.thevegancalculator.com/img/challenge22.jpg" alt="Vegan" />
+					<p>
+						Challenge 22
+						<br>
+						<small>"Why try vegan?"</small>
+					</p>
+					<i class="fa fa-angle-right arrow"></i>
+				</div>
+			</a>
+		</div>
+
+		<!-- Link -->
+		<div class="small-6 medium-2 columns">
+			<a target="_blank" href="https://www.surgeactivism.org/" onclick="trackOutboundLink('https://www.surgeactivism.org/'); return false;">
+				<div class="card link">
+					<img src="https://www.thevegancalculator.com/img/surgeactivism.jpg" alt="Vegan" />
+					<p>
+						Surge
+						<br>
+						<small>"Surge Activism"</small>
+					</p>
+					<i class="fa fa-angle-right arrow"></i>
+				</div>
+			</a>
+		</div>
+
+		<!-- Link -->
+		<div class="small-6 medium-2 columns">
+			<a target="_blank" href="https://www.mercyforanimals.org/investigations" onclick="trackOutboundLink('https://www.mercyforanimals.org/investigations'); return false;">
+				<div class="card link">
+					<img src="https://www.thevegancalculator.com/img/mercyforanimals.jpg" alt="Vegan" />
+					<p>
+						Mercy for Animals
+						<br>
+						<small>"Inspiring Compassion"</small>
+					</p>
+					<i class="fa fa-angle-right arrow"></i>
+				</div>
+			</a>
+		</div>
+
+		<!-- Link -->
+		<div class="small-6 medium-2 columns">
+			<a target="_blank" href="https://www.farmsanctuary.org/" onclick="trackOutboundLink('https://www.farmsanctuary.org/'); return false;">
+				<div class="card link">
+					<img src="https://www.thevegancalculator.com/img/farmsanctuary-logo.jpg" alt="farm sanctuary Vegan" />
+					<p>
+						Farm Sanctuary
+						<br>
+						<small>"To protect farm animals from cruelty"</small>
+					</p>
+					<i class="fa fa-angle-right arrow"></i>
+				</div>
+			</a>
+		</div>
+
+		<!-- Link -->
+		<div class="small-6 medium-2 columns">
+			<a target="_blank" href="https://nutritionfacts.org/" onclick="trackOutboundLink('https://nutritionfacts.org/'); return false;">
+				<div class="card link">
+					<img src="https://www.thevegancalculator.com/img/nutritionfacts-logo.jpg" alt="nutrition facts Vegan" />
+					<p>
+						Nutrition Facts
+						<br>
+						<small>Michael Greger M.D.</small>
+					</p>
+					<i class="fa fa-angle-right arrow"></i>
+				</div>
+			</a>
+		</div>
+
+	</div>
+	<!-- row -->
+	<!-- <div class="brand ara row">
+		<a href="https://discord.gg/Dfc9Th2pE6" onclick="trackOutboundLink('https://discord.gg/Dfc9Th2pE6'); return false;">
+			<img src="https://www.thevegancalculator.com/img/vegan-calc-ara-banner-1.jpg" alt="Animal Right Advocates Discord">
+		</a>
+	</div> -->
+</div>
+
+<!-- BRAND --><!-- BRAND --><!-- BRAND --><!-- BRAND -->
+<div class="brand">
+	<div class="row">
+		<a href="https://veganoutfitters.com/?rfsn=6099934.78a6338" onclick="trackOutboundLink('https://veganoutfitters.com/?rfsn=6099934.78a6338'); return false;">
+			<img src="https://www.thevegancalculator.com/img/vegan-calc-vo-banner-1.jpg" alt="Vegan Outfitters vegan clothing">
+		</a>
+	</div>
+</div>
+
+<!-- BOOKS --><!-- BOOKS --><!-- BOOKS --><!-- BOOKS -->
+<div class="content-section amazon-links">
+    <h3>Recommended Books on Amazon:</h3>
+    <div class="row">
+		<div class="small-4 medium-2 columns">
+            <a target="_blank" href="https://www.amazon.com/gp/product/1250066115/ref=as_li_tl?ie=UTF8&tag=vegancalculat-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1250066115&linkId=abef627f3746407887e06a35710811ac">
+			<img src="https://www.thevegancalculator.com/img/hownottodie.jpg" >
+			</a>
+        </div>
+		<div class="small-4 medium-2 columns">
+            <a target="_blank" href="https://www.amazon.com/gp/product/1623363586/ref=as_li_tl?ie=UTF8&tag=vegancalculat-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1623363586&linkId=ea6ffb9cba3bee04327e292a72e161bd">
+			<img src="https://www.thevegancalculator.com/img/thugkitchen.jpg" >
+			</a>
+        </div>
+		<div class="small-4 medium-2 columns">
+            <a target="_blank" href="https://www.amazon.com/gp/product/1615190619/ref=as_li_tl?ie=UTF8&tag=vegancalculat-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1615190619&linkId=8647803e5ecf41b2e312e371868d10cd">
+			<img src="https://www.thevegancalculator.com/img/forksoverknivescookbook.jpg" >
+			</a>
+        </div>
+		<div class="small-4 medium-2 columns">
+            <a target="_blank" href="https://www.amazon.com/gp/product/0735213798/ref=as_li_tl?ie=UTF8&tag=vegancalculat-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0735213798&linkId=eebff9a3e01cf3f276386ec268bd6ab3">
+			<img src="https://www.thevegancalculator.com/img/thischeeseisnuts.jpg" >
+			</a>
+        </div> 
+		<div class="small-4 medium-2 columns">
+            <a target="_blank" href="https://www.amazon.com/gp/product/0307952207/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=lukedowding-20&creative=9325&linkCode=as2&creativeASIN=0307952207&linkId=53ad4b191632e73ff3c89f388976b0e3">
+			<img src="https://www.thevegancalculator.com/img/findingultra.jpg" >
+			</a>
+        </div>
+		<div class="small-4 medium-2 columns">
+            <a target="_blank" href="https://www.amazon.com/gp/product/1510751262/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=lukedowding-20&creative=9325&linkCode=as2&creativeASIN=1510751262&linkId=b4e417e51e0644fcc1a6f0375d4d9200">
+			<img src="https://www.thevegancalculator.com/img/voicesforanimals.jpg" >
+			</a>
+        </div>
+    </div>
+</div>	
