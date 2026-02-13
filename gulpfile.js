@@ -1,18 +1,23 @@
 const gulp = require('gulp');
-const sass = require('gulp-sass')(require('sass'));
+const concat = require('gulp-concat');
 const fileinclude = require('gulp-file-include');
-const htmlmin = require('gulp-htmlmin');
 const browserSync = require('browser-sync').create();
 
-// Compile Sass
-gulp.task('sass', function () {
-    return gulp.src('scss/*.scss')
-        .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+// Concatenate CSS
+gulp.task('css', function () {
+    return gulp.src([
+        'src/css/normalize.css',
+        'src/css/foundation.css',
+        'src/css/variables.css',
+        'src/css/style.css',
+        'src/css/vegan-calculator.css',
+        'src/css/animals.css'
+    ])
+        .pipe(concat('app.css'))
         .pipe(gulp.dest('css'))
-        .pipe(browserSync.stream()); // Inject CSS changes
+        .pipe(browserSync.stream());
 });
 
-// Compile HTML
 // Compile HTML
 gulp.task('fileinclude', function () {
     return gulp.src(['src/**/*.html', '!src/partials/**'])
@@ -21,11 +26,11 @@ gulp.task('fileinclude', function () {
             basepath: '@file'
         }))
         .pipe(gulp.dest('./'))
-        .pipe(browserSync.stream()); // Reload on HTML change
+        .pipe(browserSync.stream());
 });
 
-// Build Task (no watch)
-gulp.task('build', gulp.series('sass', 'fileinclude'));
+// Build Task
+gulp.task('build', gulp.series('css', 'fileinclude'));
 
 // Watch Files & Serve
 gulp.task('watch', function () {
@@ -34,7 +39,7 @@ gulp.task('watch', function () {
             baseDir: "./"
         }
     });
-    gulp.watch('scss/*.scss', gulp.series('sass'));
+    gulp.watch('src/css/*.css', gulp.series('css'));
     gulp.watch('src/**/*.html', gulp.series('fileinclude'));
 });
 

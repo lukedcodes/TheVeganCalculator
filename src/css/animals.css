@@ -1,0 +1,342 @@
+.animal-slaughter .hero {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 200px 1rem 200px;
+}
+
+@media (max-width: 769px) {
+    .animal-slaughter .hero {
+        background-image: url('../img/cow-small.jpg');
+        background-size: cover;
+    }
+}
+
+.animal-slaughter .logo {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: block;
+    height: 50px;
+}
+
+.animal-slaughter .logo img {
+    display: block;
+    max-height: 100%;
+}
+
+.animal-slaughter .calc-link {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: block;
+    font-weight: normal;
+    color: #fff;
+}
+
+.animal-slaughter .calc-link i {
+    padding: 0 0.5rem 0 0;
+}
+
+.animal-slaughter h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    text-shadow: 1px 1px 1px #222, 1px 1px 4px #333;
+}
+
+@media (max-width: 769px) {
+    .animal-slaughter h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .animal-slaughter h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.animal-slaughter .counter-body {
+    width: 70em;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.animal-slaughter .counter-body p {
+    color: #999;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 480px) {
+    .animal-slaughter .counter-body p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .animal-slaughter .counter-body {
+        padding: 2rem 0.5rem 1rem;
+    }
+}
+
+.animal-slaughter .time-so-far {
+    color: var(--red) !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem !important;
+}
+
+.animal-slaughter .counter-info p {
+    font-size: 0.8rem;
+    color: var(--grey);
+}
+
+@media (max-width: 769px) {
+    .animal-slaughter .counter-info p {
+        font-size: 0.7rem;
+    }
+}
+
+.animal-slaughter .slaughter-counter {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 1rem;
+    text-align: center;
+}
+
+.animal-slaughter .slaughter-counter p {
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.animal-slaughter .slaughter-counter span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #111111;
+}
+
+.animal-slaughter .slaughter-counter li {
+    margin: 1rem;
+    background-image: var(--green2);
+    /* Note: green2 is a color #43e137, not an image. Assuming solid color fallback or gradient if intended. 
+       In SCSS it was `background-image: $green2`. If $green2 is a color, this property is invalid for a color.
+       However, browsers might ignore it. I'll define it as background-color too just in case. */
+    background-color: var(--green2);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    height: auto;
+    width: 200px;
+    border-radius: 4px;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+@media (max-width: 769px) {
+    .animal-slaughter .slaughter-counter li {
+        margin: 0.5rem 0;
+    }
+}
+
+.animal-slaughter .slaughter-counter li .counter-inner-wrapper {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.animal-slaughter .slaughter-counter li .counter-image {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+    opacity: 0.6;
+    height: auto;
+}
+
+@media (max-width: 480px) {
+    .animal-slaughter .slaughter-counter li .counter-image {
+        height: 50px;
+    }
+}
+
+.animal-slaughter .slaughter-counter li .counter-box {
+    flex: 2;
+    padding: 0.25rem 0;
+    text-align: left;
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(1) {
+    background-image: url('../img/icons/fish2.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(1) .counter-image {
+    background-image: url('../img/icons/fish2.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(2) {
+    background-image: url('../img/icons/chicken.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(2) .counter-image {
+    background-image: url('../img/icons/chicken.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(3) {
+    background-image: url('../img/icons/fish.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(3) .counter-image {
+    background-image: url('../img/icons/fish.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(4) {
+    background-image: url('../img/icons/duck.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(4) .counter-image {
+    background-image: url('../img/icons/duck.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(5) {
+    background-image: url('../img/icons/pig.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(5) .counter-image {
+    background-image: url('../img/icons/pig.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(6) {
+    background-image: url('../img/icons/rabbit.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(6) .counter-image {
+    background-image: url('../img/icons/rabbit.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(7) {
+    background-image: url('../img/icons/geese.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(7) .counter-image {
+    background-image: url('../img/icons/geese.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(8) {
+    background-image: url('../img/icons/turkey.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(8) .counter-image {
+    background-image: url('../img/icons/turkey.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(9) {
+    background-image: url('../img/icons/sheep.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(9) .counter-image {
+    background-image: url('../img/icons/sheep.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(10) {
+    background-image: url('../img/icons/goat.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(10) .counter-image {
+    background-image: url('../img/icons/goat.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(11) {
+    background-image: url('../img/icons/cow.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(11) .counter-image {
+    background-image: url('../img/icons/cow.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(12) {
+    background-image: url('../img/icons/rat.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(12) .counter-image {
+    background-image: url('../img/icons/rat.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(13) {
+    background-image: url('../img/icons/bird.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(13) .counter-image {
+    background-image: url('../img/icons/bird.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(14) {
+    background-image: url('../img/icons/buffalo.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(14) .counter-image {
+    background-image: url('../img/icons/buffalo.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(15) {
+    background-image: url('../img/icons/horse.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(15) .counter-image {
+    background-image: url('../img/icons/horse.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(16) {
+    background-image: url('../img/icons/donkey.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(16) .counter-image {
+    background-image: url('../img/icons/donkey.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(17) {
+    background-image: url('../img/icons/camel.svg');
+}
+
+.animal-slaughter .slaughter-counter li:nth-of-type(17) .counter-image {
+    background-image: url('../img/icons/camel.svg');
+}
+
+.animal-slaughter .counter-share-loader {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.animal-slaughter .counter-share-loader .counter-inner-wrapper {
+    background-color: transparent !important;
+}
+
+.animal-slaughter .counter-info {
+    text-align: center;
+}
+
+.animal-slaughter .counter-info-popup {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+    z-index: 2;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.animal-slaughter .share button {
+    margin: 0.76rem 0;
+}

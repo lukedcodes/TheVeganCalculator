@@ -1,0 +1,10 @@
+:root {
+    --green: #2cc03d;
+    --green2: #43e137;
+    --pink: #f92f4c;
+    --pink-dark: #e02a44;
+    --red: #e11;
+    --grey: #999;
+    --mainFont: oxygen, sans-serif;
+    --imageOverlay: linear-gradient(rgba(10, 58, 16, 0), rgba(10, 58, 16, 0.5));
+}
