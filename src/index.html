@@ -20,8 +20,6 @@
 
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link href="css/app.css" rel="stylesheet" />
-    <script src="js/jquery.js"></script>
-    <script src="js/autoscroll.js"></script>
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -173,9 +171,9 @@
         </div>
     </div>
 
-    @@include('./partials/recommended.html')
+    @@include('./partials/recommended.html', {"path": ""})
 
-    @@include('./partials/footer.html')
+    @@include('./partials/footer.html', {"path": ""})
 
     @@include('./partials/scripts.html')
 

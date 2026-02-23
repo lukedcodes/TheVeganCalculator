@@ -252,26 +252,6 @@
                     </div>
                 </div>
             </li>
-            <li class="counter-share-loader">
-                <div class="counter-inner-wrapper">
-                    <div class="share show-loader">
-                        <!-- <p>Share:</p> -->
-                        <div class="group facebook-share">
-                            <button class="fb">
-                                <i class="fa fa-facebook"></i>
-                            </button>
-                        </div>
-                        <div class="group twitter-share">
-                            <button class="twitter">
-                                <i class="fa fa-twitter"></i>
-                            </button>
-                        </div>
-                        <div class="share-loader">
-                            <img src="http://thevegancalculator.com/img/loader.gif" alt="vegan calculator loader">
-                        </div>
-                    </div>
-                </div>
-            </li>
         </ul>
         <div class="row">
             <div class="columns small-12">
@@ -282,9 +262,9 @@
         </div>
     </div>
 
-    @@include('../partials/recommended.html')
+    @@include('../partials/recommended.html', {"path": "../"})
 
-    @@include('../partials/footer.html')
+    @@include('../partials/footer.html', {"path": "../"})
 
     @@include('../partials/scripts2.html')
 

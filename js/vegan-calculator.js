@@ -1,41 +1,17 @@
 
 var formatNumber = function (x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
 
-var kgToLb = function () {
-  return v * 2.20462;
-};
-
-var lbToKg = function () {
-  return v / 2.20462;
-};
-
-var gallonToLitre = function () {
-  return v * 3.7854;
-};
-
-var litreToGallon = function () {
-  return v / 3.7854;
-};
-
-var sqftToSqm = function () {
-  return v * 0.0929;
-};
-
-var sqmToSqft = function () {
-  return v / 0.0929;
-};
-
-function veganCalc () {
+function veganCalc() {
   var unit;
   var totalDays = 0;
   var years = $('#years').val();
-  var month = $('#months').val();
-  
-  totalDays = (month) ? totalDays + month*30 : totalDays ;
-  totalDays = (years) ? totalDays + years*365 : totalDays ;
-  
+  var months = $('#months').val();
+
+  totalDays = (months) ? totalDays + months * 30 : totalDays;
+  totalDays = (years) ? totalDays + years * 365 : totalDays;
+
   // Variables
   var indexes = {
     'gallons': {
@@ -94,16 +70,13 @@ function veganCalc () {
       }
     }
   }
-  
-  // Functions
-  var years = $('#years').val();
-  var months = $('#months').val();
-  var unit = $('#unit').val();
-  
+
+  unit = $('#unit').val();
+
   //Prints
   $.map(indexes, function (v, i) {
     $(v.selector + ".index").html(v.index[unit]);
-    $(v.selector + ".value").html(formatNumber( Math.round(v.ipd[unit] * totalDays) ) );
+    $(v.selector + ".value").html(formatNumber(Math.round(v.ipd[unit] * totalDays)));
   });
   $('.intro.index').html("You have saved:");
 };
