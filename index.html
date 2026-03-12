@@ -5,21 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Vegan Calculator - Calculate Your Environmental Impact</title>
-  <meta name="description" content="Calculate your impact as a vegan. See how many animals, lbs of Grain, Gallons of Water, Sq Ft of Forest and lbs of Co2 you've saved. Every day counts!">
+  <meta name="description"
+    content="Calculate your impact as a vegan. See how many animals, lbs of Grain, Gallons of Water, Sq Ft of Forest and lbs of Co2 you've saved. Every day counts!">
   <meta name="keywords" content="Vegan Calculator, environmental impact, save animals, planet, veganism">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://thevegancalculator.com/">
   <meta property="og:title" content="The Vegan Calculator - Calculate Your Environmental Impact">
-  <meta property="og:description" content="Calculate your impact as a vegan. See how many animals, lbs of Grain, Gallons of Water, Sq Ft of Forest and lbs of Co2 you've saved.">
+  <meta property="og:description"
+    content="Calculate your impact as a vegan. See how many animals, lbs of Grain, Gallons of Water, Sq Ft of Forest and lbs of Co2 you've saved.">
   <meta property="og:image" content="assets/tvwd_logo.png">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://thevegancalculator.com/">
   <meta property="twitter:title" content="The Vegan Calculator - Calculate Your Environmental Impact">
-  <meta property="twitter:description" content="Calculate your impact as a vegan. See how many animals, lbs of Grain, Gallons of Water, Sq Ft of Forest and lbs of Co2 you've saved.">
+  <meta property="twitter:description"
+    content="Calculate your impact as a vegan. See how many animals, lbs of Grain, Gallons of Water, Sq Ft of Forest and lbs of Co2 you've saved.">
   <meta property="twitter:image" content="assets/tvwd_logo.png">
 
   <!-- Fonts -->
@@ -45,37 +48,39 @@
     <div class="header-section" data-component="main-header.html"></div>
 
     <div class="desktop-relative-container w-full max-w-[1440px] mx-auto flex flex-col items-center">
-      <h1 class="text-center font-bold mb-4 hidden-mobile">How long have you been vegan?</h1>
-      <div class="calculator-inputs-container container">
-        <div class="calculator-inputs">
-          <div class="input-row rounded">
-            <button id="dec-years" class="btn-circle btn-gradient">-</button>
-            <div class="input-value">
-              <input type="number" id="val-years" class="typable-input" value="0" min="0" max="999">
-              <span class="input-label">Years</span>
+      <div class="calculator-hero">
+        <h1 class="text-center font-bold mb-4 hidden-mobile">How long have you been vegan?</h1>
+        <div class="calculator-inputs-container container">
+          <div class="calculator-inputs">
+            <div class="input-row rounded">
+              <button id="dec-years" class="btn-circle btn-gradient">-</button>
+              <div class="input-value">
+                <input type="number" id="val-years" class="typable-input" value="0" min="0" max="999">
+                <span class="input-label">Years</span>
+              </div>
+              <button id="inc-years" class="btn-circle btn-gradient">+</button>
             </div>
-            <button id="inc-years" class="btn-circle btn-gradient">+</button>
-          </div>
 
-          <div class="input-row rounded">
-            <button id="dec-months" class="btn-circle btn-gradient">-</button>
-            <div class="input-value">
-              <input type="number" id="val-months" class="typable-input" value="0" min="0" max="11">
-              <span class="input-label">Months</span>
+            <div class="input-row rounded">
+              <button id="dec-months" class="btn-circle btn-gradient">-</button>
+              <div class="input-value">
+                <input type="number" id="val-months" class="typable-input" value="0" min="0" max="11">
+                <span class="input-label">Months</span>
+              </div>
+              <button id="inc-months" class="btn-circle btn-gradient">+</button>
             </div>
-            <button id="inc-months" class="btn-circle btn-gradient">+</button>
-          </div>
 
-          <button id="btn-calculate" class="btn btn-red w-full mt-2">
-            Calculate
-            <span class="material-symbols-rounded icon-xs ml-1">chevron_right</span>
-          </button>
+            <button id="btn-calculate" class="btn btn-red w-full mt-2">
+              Calculate
+              <span class="material-symbols-rounded icon-xs ml-1">chevron_right</span>
+            </button>
+          </div>
         </div>
       </div>
 
       <!-- WHITE BOTTOM SECTION (Results & Recommend) -->
       <main class="main-content container relative z-10 w-full">
-        <div class="main-card shadow rounded">
+        <div class="main-card rounded">
 
           <h1 id="calc-headline" class="headline text-gradient">Every day as a vegan you save:</h1>
 
@@ -137,6 +142,11 @@
         </div> <!-- /main-card -->
       </main>
     </div> <!-- /desktop-relative-container -->
+
+    <div class="main-content container slaughter-container">
+      <div data-component="slaughter-counter-cta.html"></div>
+    </div>
+
     <div data-component="footer.html"></div>
   </div> <!-- /page-wrapper -->
 
