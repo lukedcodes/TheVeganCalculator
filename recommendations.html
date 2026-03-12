@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegan Recommended Resources - Documentaries, Books & Sites</title>
+  <meta name="description"
+    content="A curated list of the most impactful vegan documentaries, books, and websites to help you on your plant-based journey. Start your vegan lifestyle today!">
+  <meta name="keywords" content="Vegan Resources, Vegan Documentaries, Vegan Books, Plant-based lifestyle">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thevegancalculator.com/recommendations.html">
+  <meta property="og:title" content="Recommended Vegan Resources - Best Documentaries, Books & Sites">
+  <meta property="og:description"
+    content="Explore our curated collection of the most impactful documentaries, books, and websites for the plant-based journey.">
+  <meta property="og:image" content="assets/tvwd_logo.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://thevegancalculator.com/recommendations.html">
+  <meta property="twitter:title" content="Recommended Vegan Resources - Best Documentaries, Books & Sites">
+  <meta property="twitter:description"
+    content="Explore our curated collection of the most impactful documentaries, books, and websites for the plant-based journey.">
+  <meta property="twitter:image" content="assets/tvwd_logo.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+
+<body>
+
+  <div data-component="full-screen-menu.html"></div>
+
+  <div class="page-wrapper full-green-theme">
+
+    <div class="header-section" data-component="main-header.html"></div>
+
+    <div class="desktop-relative-container w-full max-w-[1440px] mx-auto flex flex-col items-center">
+      <div class="slaughter-header-text">
+        <h1 class="slaughter-title">All Recommended Resources</h1>
+        <p class="slaughter-desc">
+          A curated collection of the most impactful documentaries, books, and websites for the plant-based journey.
+        </p>
+      </div>
+
+      <!-- WHITE BOTTOM SECTION (Results & Recommend) -->
+      <main class="main-content container relative z-10 w-full mt-8">
+        <div class="main-card shadow rounded recommendations-page">
+
+          <!-- Recommended Section -->
+          <div class="recommended-grid mt-4">
+
+            <!-- Docs -->
+            <div class="recommended-col" id="docs">
+              <div class="col-header">
+                <span class="material-symbols-rounded icon">movie</span>
+                <h2>Must-Watch Documentaries</h2>
+              </div>
+              <!-- Grid will be populated by JS -->
+              <div class="card-grid" id="all-docs">
+                <!-- Injected via JS -->
+              </div>
+            </div>
+
+            <!-- Books -->
+            <div class="recommended-col mt-8" id="books">
+              <div class="col-header">
+                <span class="material-symbols-rounded icon">menu_book</span>
+                <h2>Recommended Books</h2>
+              </div>
+              <div class="card-list" id="all-books">
+                <!-- Injected via JS -->
+              </div>
+            </div>
+
+            <!-- Sites -->
+            <div class="recommended-col mt-8" id="sites">
+              <div class="col-header">
+                <span class="material-symbols-rounded icon">public</span>
+                <h2>Helpful Resources</h2>
+              </div>
+              <div class="card-grid" id="all-sites">
+                <!-- Injected via JS -->
+              </div>
+            </div>
+
+          </div>
+      </main>
+    </div> <!-- /desktop-relative-container -->
+    <div data-component="footer.html"></div>
+  </div> <!-- /page-wrapper -->
+
+  <script src="js/analytics.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/recommendations-data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/recommendations.js"></script>
+</body>
+
+</html>
